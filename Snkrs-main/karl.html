@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karl</title>
+    <link rel="stylesheet" href="/style/estilos.css">
+    <script src="/scripts/script.js"></script>
+
+</head>
+
+<body class= "fondo">
+    
+    <a href="index.html">
+        <h1 class="titulo">
+        Volver a Sneakers
+        </h1>
+    </a>
+
+    <h2 class="titulo">
+        Compra de Karl Lagerfeld
+    </h2>
+
+    <!-- Zapatilla -->
+    <div>
+        <img src="https://cdnx.jumpseller.com/buon-gusto/image/65473986/IMG_3424.jpeg?1752794441"
+        width="215px"
+        height="205px">
+    </div>
+
+
+    <button onclick="tallaSeleccionadaK('7')">
+        7 us
+    </button>
+        <button onclick="tallaSeleccionadaK('7.5')">
+        7.5 us
+    </button>
+        <button onclick="tallaSeleccionadaK('8')">
+        8 us
+    </button>
+        <button onclick="tallaSeleccionadaK('8.5')">
+        8.5 us
+    </button>
+        <button onclick="tallaSeleccionadaK('9')">
+        9 us
+    </button>
+    
+
+
+    <br>
+    <br>
+
+    <table id="tablaProductos" class="productos">
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Talla</th>
+            <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <form id="formularioTarjeta" >
+        <div >
+        <label class="estilotarjeta">Número tarjeta</label>
+        <input id="numeroTarjeta"   maxlength="19" placeholder="0000 0000 0000 0000" >
+        </div>
+
+        <br>
+
+        <div >
+        <label class="estilotarjeta">Nombre titular</label>
+        <input id="nombreTarjeta" maxlength="25" placeholder="Nombre en la tarjeta" >
+        </div>
+
+        <br>
+
+        <div >
+        <label class="estilotarjeta">Fecha expiración</label>
+        <input id="exp"  placeholder="MM/AA" maxlength="5" >
+        <label class="estilotarjeta">CVV</label>
+        <input id="cvv"  maxlength="3" placeholder="123" >
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+        <label class="estilotarjeta">Dirección de envio (Gratis)</label>
+        <input id="direccionEnvio"  placeholder="Dirección de envío" >
+        </div>
+
+        <br>
+        
+        <Button onclick="comprado()">
+        Comprar
+        </Button>
+    </form>
+
+    <footer class="footer">
+        <p class="footer">2026 Sneakers. Todos los derechos reservados.</p>
+        <p class="footer">Benjamin Saavedra - Diego Santibañez - Victor Espionoza</p>
+    </footer>
+
+</body>
+
+
+</html>
