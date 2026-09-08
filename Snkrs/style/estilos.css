@@ -14,7 +14,7 @@ html, body {
     overflow-x: hidden;
 }
 
---Botones
+/*Botones*/
 
 .tituloBienvenida{
     text-align: center;
@@ -71,7 +71,7 @@ html, body {
 .productos tbody tr:nth-child(even) {
   background: #fafafa;
 }
-
+/*Para responsiva en celular*/
 @media (max-width: 600px) {
   .productos th,
   .productos td {

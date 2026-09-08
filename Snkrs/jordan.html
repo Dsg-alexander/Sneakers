@@ -29,19 +29,19 @@
     </div>
     
     <button onclick="tallaSeleccionadaJ('7')">
-        7
+        7 us
     </button>
         <button onclick="tallaSeleccionadaJ('7.5')">
-        7.5
+        7.5 us
     </button>
         <button onclick="tallaSeleccionadaJ('8')">
-        8
+        8 us
     </button>
         <button onclick="tallaSeleccionadaJ('8.5')">
-        8.5
+        8.5 us
     </button>
         <button onclick="tallaSeleccionadaJ('9')">
-        9
+        9 us
     </button>
 
     <br>
@@ -64,17 +64,17 @@
     <br>
     <br>
 
-    <form id="paymentForm" >
+    <form id="formularioTarjeta" >
         <div >
         <label class="estilotarjeta">Número tarjeta</label>
-        <input id="cardNumber"   maxlength="19" placeholder="0000 0000 0000 0000" >
+        <input id="numeroTarjeta"   maxlength="19" placeholder="0000 0000 0000 0000" >
         </div>
 
         <br>
 
         <div >
         <label class="estilotarjeta">Nombre titular</label>
-        <input id="cardName"  placeholder="Nombre en la tarjeta" >
+        <input id="nombreTarjeta" maxlength="25" placeholder="Nombre en la tarjeta" >
         </div>
 
         <br>
@@ -83,7 +83,7 @@
         <label class="estilotarjeta">Fecha expiración</label>
         <input id="exp"  placeholder="MM/AA" maxlength="5" >
         <label class="estilotarjeta">CVV</label>
-        <input id="cvv"  maxlength="4" placeholder="123" >
+        <input id="cvv"  maxlength="3" placeholder="123" >
         </div>
 
         <br>
@@ -91,7 +91,7 @@
 
         <div>
         <label class="estilotarjeta">Dirección de envio (Gratis)</label>
-        <input id="address"  placeholder="Dirección de envío" >
+        <input id="direccionEnvio"  placeholder="Dirección de envío" >
         </div>
 
         <br>
@@ -102,8 +102,8 @@
     </form>
 
     <footer class="footer">
-        <p class="footer-text">2026 Sneakers. Todos los derechos reservados.</p>
-        <p class="footer-text">Benjamin Saavedra - Diego Santibañez - Victor Espionoza</p>
+        <p class="footer">2026 Sneakers. Todos los derechos reservados.</p>
+        <p class="footer">Benjamin Saavedra - Diego Santibañez - Victor Espionoza</p>
     </footer>
 
 </body>
