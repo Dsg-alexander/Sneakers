@@ -12,7 +12,7 @@ function tallaSeleccionadaK(talla){
     const nuevaFila = `<tr>
                         <td>${seleccionadas.length}</td>
                         <td>Karl Lagerfeld Sneak</td>
-                        <td>${talla}</td><td>$150</td>
+                        <td>${talla}</td><td>$160</td>
                         </tr>`;
     tbody.insertAdjacentHTML('beforeend', nuevaFila);
     
@@ -26,7 +26,7 @@ function tallaSeleccionadaJ(talla){
     const nuevaFila = `<tr>
                         <td>${seleccionadas.length}</td>
                         <td>Jordan Sneak</td>
-                        <td>${talla}</td><td>$120</td>
+                        <td>${talla}</td><td>$140</td>
                         </tr>`;
     tbody.insertAdjacentHTML('beforeend', nuevaFila);
     
@@ -39,7 +39,7 @@ function tallaSeleccionadaM(talla){
     const nuevaFila = `<tr>
                         <td>${seleccionadas.length}</td>
                         <td>Michael Kors Sneak</td>
-                        <td>${talla}</td><td>$180</td>
+                        <td>${talla}</td><td>$120</td>
                         </tr>`;
     tbody.insertAdjacentHTML('beforeend', nuevaFila);
     
